@@ -1,0 +1,53 @@
+
+FRAUD DETECTION MODEL COMPARISON REPORT
+========================================
+
+MODEL COMPARISON
+----------------------------------------
+
+                           Model  Accuracy  Precision  Recall  F1 Score
+          Original Random Forest     0.904     0.4948  0.5053    0.5000
+          Improved Random Forest     0.904     0.4948  0.5053    0.5000
+             SMOTE Random Forest     0.829     0.2791  0.5053    0.3596
+             Tuned Random Forest     0.918     0.6667  0.2737    0.3881
+Feature-Engineered Random Forest     0.904     0.4945  0.4737    0.4839
+
+
+BEST MODEL
+----------------------------------------
+
+Best model based on F1 Score:
+
+Model: Original Random Forest
+F1 Score: 0.5000
+
+
+PROFESSIONAL INTERPRETATION
+----------------------------------------
+
+The Original Random Forest and Improved
+Random Forest achieved the highest F1 Score
+among the evaluated models.
+
+The SMOTE Random Forest produced lower
+overall performance and more false positive
+predictions.
+
+The Tuned Random Forest achieved the highest
+Accuracy and Precision, but its Recall was
+much lower.
+
+The Feature-Engineered Random Forest did not
+improve the baseline model's F1 Score.
+
+For the current fraud detection objective,
+the Original Random Forest provides the best
+balance between Precision and Recall.
+
+However, fraud detection places strong
+importance on Recall because missing an
+actual fraudulent transaction can be costly.
+
+Therefore, further False Negative analysis
+should be performed before selecting the
+final production model.

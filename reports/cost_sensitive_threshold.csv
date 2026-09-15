@@ -1,0 +1,6 @@
+threshold,true_negatives,false_positives,false_negatives,true_positives,total_cost
+0.3,781,124,28,67,3420
+0.4,832,73,40,55,4365
+0.5,859,46,49,46,5130
+0.6,878,27,57,38,5835
+0.7,897,8,70,25,7040

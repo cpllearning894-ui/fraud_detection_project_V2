@@ -1,0 +1,50 @@
+
+FRAUD DETECTION MODEL EVALUATION REPORT
+========================================
+
+MODEL PERFORMANCE
+----------------------------------------
+
+Accuracy: 0.9040
+Precision: 0.4948
+Recall: 0.5053
+F1 Score: 0.5000
+
+
+CLASSIFICATION REPORT
+----------------------------------------
+
+              precision    recall  f1-score   support
+
+           0       0.95      0.95      0.95       905
+           1       0.49      0.51      0.50        95
+
+    accuracy                           0.90      1000
+   macro avg       0.72      0.73      0.72      1000
+weighted avg       0.90      0.90      0.90      1000
+
+
+
+CONFUSION MATRIX
+----------------------------------------
+
+[[856  49]
+ [ 47  48]]
+
+
+MODEL INTERPRETATION
+----------------------------------------
+
+The model was evaluated using testing data.
+
+Accuracy shows the overall percentage of correct predictions.
+
+Precision shows how often predicted fraud cases
+were actually fraud.
+
+Recall shows how many real fraud cases
+were successfully detected.
+
+F1 Score provides a balance between
+Precision and Recall.
+
