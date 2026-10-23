@@ -411,7 +411,7 @@ requirements.txt
 Clone this repository to your computer:
 
 ```bash
-git clone <your-github-repository-url>
+git clone (https://github.com/cpllearning894-ui/fraud_detection_project_V2)
 cd fraud_detection_project_V2
 ```
 
